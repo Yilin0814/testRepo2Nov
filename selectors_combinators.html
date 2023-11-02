@@ -26,8 +26,19 @@
         <h2>Contact Me</h2>
         <form class="form-contact-me">
             <p class="text-light">Fill in all the fields...</p>
-            <label>Name</label>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"/>
+            <label for="email">Email</label>
+            <input type="email" id="email"/>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit"></button>
         </form>
     </main>
+    <footer id="page-footer">
+        <div id="footer-container">
+            &copy;Test User
+        </div>
+    </footer>
 </body>
 </html>
